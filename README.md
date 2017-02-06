@@ -20,6 +20,8 @@ If you are having trouble viewing this locally, please make sure your browser ha
 
 [Firefox Plugin](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
 
+[Chrome Plugin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)
+
 ## License
 
 The webpage is licensed under the [MIT license](http://opensource.org/licenses/MIT).
