@@ -5,7 +5,7 @@ Cornerstone assessment Designed by [planlodge](http://planlodge.com).
 [![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-![Image](https://github.com/planlodge/Milo-SteakHouse/blob/master/public/images/screen5.png?raw=true)
+![Image](https://github.com/planlodge/Cornerstone-Web/blob/master/assets/img/screen1.png?raw=true)
 
 ## Description
 
