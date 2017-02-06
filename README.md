@@ -9,12 +9,6 @@ Cornerstone assessment Designed by [planlodge](http://planlodge.com).
 
 [NodeJS version](https://github.com/planlodge/Cornerstone-Web-NodeJS)
 
-## Desktop
-![Image](https://github.com/planlodge/Cornerstone-Web/blob/master/assets/img/desktop.gif?raw=true)
-
-## Mobile
-![Image](https://github.com/planlodge/Cornerstone-Web/blob/master/assets/img/mobile.gif?raw=true)
-
 ## Features
 - Responsive
 - Autocomplete search bar
@@ -22,6 +16,12 @@ Cornerstone assessment Designed by [planlodge](http://planlodge.com).
 - Mid-section slider with navigation dots
 - Parallax and smooth Scroll
 - Optimized images, cropped and resized for fast performance
+
+## Desktop
+![Image](https://github.com/planlodge/Cornerstone-Web/blob/master/assets/img/desktop.gif?raw=true)
+
+## Mobile
+![Image](https://github.com/planlodge/Cornerstone-Web/blob/master/assets/img/mobile.gif?raw=true)
 
 ## Note
 
