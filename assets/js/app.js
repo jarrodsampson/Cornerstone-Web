@@ -27,7 +27,7 @@ app.controller("MainController", function($scope, $http) { // controller init
         console.log($scope.imageRow2);
     }, function(response) {
         //Second function handles error
-        alert('Network Error Occurred');
+        console.log('CORS Network Error Occurred');
     });
 
     $scope.searchBar = function() {
