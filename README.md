@@ -18,6 +18,7 @@ Cornerstone assessment Designed by [planlodge](http://planlodge.com).
 - AngularJS powered instagram feed
 - Mid-section slider with navigation dots
 - Parallax and smooth Scroll
+- Optimized images, cropped and resized for fast performance
 
 ## Note
 
