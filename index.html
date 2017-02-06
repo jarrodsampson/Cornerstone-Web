@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset=utf-8>
+    <title>Realize Your Potential - Cornerstone on Demand</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Language" content="en">
+    <meta name="description" content="Cloud-Based applications to recruit, train, and manage.">
+    <meta name="keywords" content="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/angucomplete.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/unslider.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-ng-app="CornerStoneApp" data-ng-controller="MainController" id="top" ng-cloak>
+
+<!-- top search bar -->
+<ul class="menu" headroom id="headerNav">
+    <li class="brand">
+        <a href="#top"><img src="assets/img/cornerstone-logo.png" alt="cornerstone logo" /></a>
+    </li>
+    <li><i class="fa fa-search" ng-click="searchBar()"></i></li>
+    <li class="search-input fade" ng-show="searching">
+        <angucomplete id="ex1" placeholder="Search..." pause="100" selectedobject="selectedTitle" localdata="autocomplete" searchfields="title" titlefield="title" minlength="1" inputclass="form-control form-control-small" matchclass="highlight">
+        </angucomplete>
+    </li>
+</ul>
+
+<!-- hero image -->
+
+<div class="wrapper">
+
+    <div class="push"></div>
+
+    <div id="header" class="top">
+
+        <div class="content">
+            <h2>Realize <em>Your</em> Potential</h2>
+            <br />
+            <p>Explore more about our company</p>
+            <a href="#mission"><button class="explore-button">Learn More</button></a>
+        </div>
+
+        <div class="video-res">
+
+            <video id="self1" class="html5-video player" width="100%" loop autoplay muted>
+                <source src="assets/media/background.mp4" width="100%" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="video-overlay"></div>
+
+        </div>
+
+        <div class="mobile-banner"></div>
+
+    </div>
+
+</div>
+
+<div id="mission"></div>
+<div class="mission wow fadeInDown">
+
+    <h2 class="center header">Our Mission</h2>
+
+    <div class="container">
+        <p>Our Mission is simple, to provide your business with excellent service. Our product and customer service team is always available 24/7</p>
+    </div>
+
+</div>
+
+
+<!-- logos and testimonials-->
+
+<div id="testimonials"></div>
+
+<div class="testimonials wow fadeInDown">
+
+    <h2 class="center header">Cornerstone Testimonials</h2>
+
+    <div class="single" ng-repeat="testimony in testimonies">
+        <img ng-src="assets/img/{{testimony.image}}" alt="{{testimony.name}}" />
+        <p class="text">{{testimony.testimony}}</p>
+        <p class="role"><em>{{testimony.name}} - {{testimony.role}}</em></p>
+    </div>
+
+</div>
+
+<h2 class="center header">Our Sponsors</h2>
+
+<div class="logos wow fadeInRight">
+
+    <div class="logo-single">
+        <img src="assets/img/civic.jpg" alt="Civic Orchestra" />
+    </div>
+
+    <div class="logo-single">
+        <img src="assets/img/quebec.jpg" alt="Quebec International" />
+    </div>
+
+    <div class="logo-single">
+        <img src="assets/img/total.jpg" alt="Total" />
+    </div>
+
+</div>
+
+<!-- slideshow -->
+
+<div class="events">
+
+    <div id="events">
+        <h2 class="center header">Cornerstone Events</h2>
+    </div>
+
+    <div unslider class="unslideEvents">
+        <ul>
+            <li>
+                <img src="assets/img/superbowl.jpg" alt="Super Bowl" />
+                <h3>
+                    Super Bowl Party
+                </h3>
+                <p>
+                    Join Us for awesome fun this Sunday at our SuperBowl Party!
+                </p>
+            </li>
+
+            <li>
+                <img src="assets/img/cornerstone1.jpg" alt="Hands on Training" />
+                <h3>
+                    Hands on Training
+                </h3>
+                <p>
+                    Our Training this week will begin at 7PM in the Rec. room.
+                </p>
+            </li>
+
+            <li>
+                <img src="assets/img/hangroom.jpg" alt="Relax Room" />
+                <h3>
+                    Relax Lounge
+                </h3>
+                <p>
+                    Check out our new relaxation room during lunch or your break time. Open Monday - Friday, during normal office hours.
+                </p>
+            </li>
+
+            <li>
+                <img src="assets/img/website.jpg" alt="New Website Release" />
+                <h3>
+                    New Online Portal Release
+                </h3>
+                <p>
+                    Need training for our new system? We've got your covered next Saturday at 9PM in the main auditorium!
+                </p>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- instagram account -->
+<div id="social">
+    <h2 class="center header">The Cornerstone Family</h2>
+</div>
+
+<wrap-owlcarousel class="owl-carousel wow fadeInLeft">
+
+    <div class="item" owl-carousel-item ng-repeat="image in imageData | limitTo:15">
+
+        <img ng-src="{{image.images.low_resolution.url}}" alt="Cornerstone Image" />
+
+    </div>
+
+</wrap-owlcarousel>
+
+<!-- footer -->
+
+<footer class="footer">
+
+    <p>
+        © 2017 Cornerstone On Demand Inc. Powered by - <a href="//www.cornerstoneondemand.com/" target="_blank">Origin Creative</a>
+    </p>
+
+</footer>
+
+<a scroll-top href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+
+<!-- video fade directive -->
+<window-video-fade></window-video-fade>
+
+<wow-scroll></wow-scroll>
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angucomplete.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/owl.autoplay.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/headroom.js"></script>
+<script src="assets/js/unslider-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/directives.js"></script>
+
+</body>
+
+</html>
