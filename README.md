@@ -18,7 +18,7 @@ Cornerstone assessment Designed by [planlodge](http://planlodge.com).
 
 If you are having trouble viewing this locally, please make sure your browser has Cross Origin Requests enabled.
 
-![Firefox Plugin](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
+[Firefox Plugin](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/)
 
 ## License
 
